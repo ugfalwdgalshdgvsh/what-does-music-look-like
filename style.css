@@ -40,17 +40,9 @@ header {
     flex: 1;
 }
 
-/* .titles {
-    width: 100%;
-    height: auto;
-}
-
-.fb-images {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+.images {
     cursor: pointer;
-} */
+}
 
 /* break point for tablet */
 @media screen and (max-width: 900px) {
