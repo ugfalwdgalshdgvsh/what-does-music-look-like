@@ -38,9 +38,6 @@ header {
 
 .columns {
     flex: 1;
-}
-
-.diagram {
     padding-bottom: 600px;
 }
 
