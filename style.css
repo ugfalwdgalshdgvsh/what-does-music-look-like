@@ -18,7 +18,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     padding: 20;
-    font-size: 3.5rem;
+    font-size: 4rem;
     cursor: pointer;
 }
 
@@ -40,26 +40,8 @@ header {
     flex: 1;
 }
 
-/* break point for tablet */
-@media screen and (max-width: 900px) {
-    .columns {
-        min-width: 50%;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-}
-
-/* break for mobile */
-@media screen and (max-width: 500px) {
-    .columns {
-        min-width: 100%;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
+.diagram {
+    padding-bottom: 600px;
 }
 
 #logo-container {
@@ -71,4 +53,26 @@ header {
     width: 75px;
     margin-bottom: 50px;
     cursor: pointer;
+}
+
+/* break point for tablet */
+@media screen and (max-width: 900px) {
+    .columns {
+        min-width: 50%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* break for mobile */
+@media screen and (max-width: 500px) {
+    .columns {
+        min-width: 100%;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
 }
