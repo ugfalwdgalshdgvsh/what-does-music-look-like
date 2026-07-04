@@ -7,6 +7,12 @@ body {
     background-color: black;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,13 +42,12 @@ header {
 
 .titles {
     width: 100%;
-    height: fit-content;
-
+    height: auto;
 }
 
 .fb-images {
     width: 100%;
-    height: fit-content;
+    height: auto;
     object-fit: contain;
     cursor: pointer;
 }
