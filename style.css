@@ -40,7 +40,7 @@ header {
     flex: 1;
 }
 
-.titles {
+/* .titles {
     width: 100%;
     height: auto;
 }
@@ -50,7 +50,7 @@ header {
     height: auto;
     object-fit: contain;
     cursor: pointer;
-}
+} */
 
 /* break point for tablet */
 @media screen and (max-width: 900px) {
