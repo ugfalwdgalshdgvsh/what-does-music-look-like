@@ -40,10 +40,6 @@ header {
     flex: 1;
 }
 
-.images {
-    cursor: pointer;
-}
-
 /* break point for tablet */
 @media screen and (max-width: 900px) {
     .columns {
