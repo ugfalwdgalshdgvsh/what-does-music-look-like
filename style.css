@@ -11,13 +11,16 @@ h1 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    padding: 30px;
-    font-size: 1.5rem;
+    padding: 20;
+    font-size: 3.5rem;
     cursor: pointer;
 }
 
 header {
-    padding: 30px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
     background-size: cover;
 }
 
@@ -31,9 +34,15 @@ header {
     flex: 1;
 }
 
+.titles {
+    width: 100%;
+    height: fit-content;
+
+}
+
 .fb-images {
     width: 100%;
-    height: 85%;
+    height: fit-content;
     object-fit: contain;
     cursor: pointer;
 }
@@ -44,8 +53,8 @@ header {
         min-width: 50%;
     }
 
-    .column-10 {
-        min-width: 50%;
+    h1 {
+        font-size: 2.5rem;
     }
 }
 
@@ -55,8 +64,8 @@ header {
         min-width: 100%;
     }
 
-    .column-10 {
-        min-width: 100%;
+    h1 {
+        font-size: 1.5rem;
     }
 }
 
